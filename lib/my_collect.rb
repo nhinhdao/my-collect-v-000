@@ -12,5 +12,5 @@ end
 
 languages =  ['ruby', 'javascript', 'python', 'objective-c']
 students =  ['Tim Jones', 'Tom Smith', 'Sophie Johnson', 'Antoin Miller']
-my_collect(languages) {|name| name.upcase}
-my_collect(students) {|name| name.split(" ").first}
+puts my_collect(languages) {|name| name.upcase}
+puts my_collect(students) {|name| name.split(" ").first}
