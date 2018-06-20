@@ -10,4 +10,7 @@ def my_collect(array)
       newarray
 end
 
-# my_collect() {|name| name.upcase}
+languages =  ['ruby', 'javascript', 'python', 'objective-c']
+students =  ['Tim Jones', 'Tom Smith', 'Sophie Johnson', 'Antoin Miller']
+my_collect(languages) {|name| name.upcase}
+my_collect(students) {|name| name.split(" ").first}
